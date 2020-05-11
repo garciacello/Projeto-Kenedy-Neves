@@ -16,20 +16,42 @@ div#interface {
 p{
 	text-align: justify;
 	text-indent: 50px;
+	color: #606060;
 }
 
+header#cabecalho {
+	border-bottom: 1px #459edf solid;
+	height: 165px;
+}
+header#cabecalho h1{
+	font-family: Arial,sans-serif;
+	font-size: 14pt;
+	padding: 10px;
+	color: #606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+	margin-top: 0px; 
 
+}
 
 /*Formatação de Imagens com Legenda*/
 figure.foto-logo{
-	border: 10px solid white;
+	border: 8px solid white;
 }
 
 figure.foto-logo img{
 	width: 20%;
 	height: 20%;
 }
+figure.foto-recepcao{
+	position: relative;
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+}
 
+figure.foto-recepcao img{
+	width: 704px;
+	height: 410px;
+	}
 
 /*Formatação Do Menu*/
 nav#menu {
@@ -66,3 +88,4 @@ nav#menu a{
 nav#menu a:hover{
 	color: #ffffff;
 }
+
